@@ -8,10 +8,10 @@ export const Header = () => {
   return (
     <header>
       <div className="logo">
-        <Link href="/" underline="none">
+        <Link href="/" underline="none" className="logo">
           <img src={logo} alt="Climatik" />
-        </Link>
         <h1>Climatik</h1>
+        </Link>
       </div>
 
       <div className="search_bar">

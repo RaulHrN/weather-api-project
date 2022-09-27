@@ -1,0 +1,14 @@
+.card_box-header button {
+    padding: 10px 15px;
+    background: #0077B6;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.card_box-header button:active {
+    font-size: 0.8rem;
+    background-color: white;
+    color: #0077B6;
+}

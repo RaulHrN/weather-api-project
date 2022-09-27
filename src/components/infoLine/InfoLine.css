@@ -1,0 +1,21 @@
+.today_info-line{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0.6rem;
+    border-bottom: 1px solid rgba(0, 119, 182, 0.3);
+}
+
+.today_info-line p {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    font-weight: 600;
+}
+
+.today_info-line p img {
+    width: 1.5rem;
+    height: 1.5rem;
+    opacity: 0.8;
+}
