@@ -1,0 +1,18 @@
+.title_article {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+    color: rgba(0, 119, 182, 0.3);
+}
+
+.title_article h1 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.title_article p {
+    font-weight: 500;
+    font-size: 2rem;
+}

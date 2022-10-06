@@ -1,0 +1,52 @@
+.card_resume {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: #CAF0F8;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.title-hour_date{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.card_resume .temperature {
+    font-size: 1.8rem;
+}
+
+.feels-like_max-min{
+    display: flex;
+}
+
+.feels-like_max-min p{
+    color: rgba(0,0,0, 0.7);
+}
+
+.feels-like_max-min span {
+    color: rgba(0,0,0, 0.5);
+}
+
+.icon{
+    width: 3rem;
+    height: 3rem;
+}
+
+.rain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.resume_rain img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+

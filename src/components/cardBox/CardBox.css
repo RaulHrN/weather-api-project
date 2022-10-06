@@ -1,14 +1,45 @@
-.card_box-header button {
+.card_box {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.card_box-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_box-header p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card_box-header a {
     padding: 10px 15px;
     background: #0077B6;
     border-radius: 2rem;
-    border: none;
+    border: 1px solid white;
     color: white;
+    text-decoration: none;
     cursor: pointer;
 }
 
-.card_box-header button:active {
-    font-size: 0.8rem;
+.card_box-header a:active {
+    border: 1px solid #0077B6;
     background-color: white;
     color: #0077B6;
+}
+
+.card_box-body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 }

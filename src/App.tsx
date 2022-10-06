@@ -7,11 +7,13 @@ import { Daily } from "./pages/daily/Daily";
 import {WeatherProvider} from "./provider/WeatherContext";
 
 function App() {
+  const headerHeight = "5rem";
 
   return (
     <div className="App">
       <WeatherProvider>
       <Header />
+      <div style={{height:`calc(100vh - ${headerHeight})`, overflow: "auto"}}>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}></Route>
@@ -19,6 +21,7 @@ function App() {
           <Route path="/daily" element={<Daily />}></Route>
         </Routes>
       </BrowserRouter>
+      </div>
       </WeatherProvider>
     </div>
   );
